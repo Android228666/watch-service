@@ -1,0 +1,34 @@
+@import './header';
+@import './variables';
+
+body{
+    box-sizing: border-box;
+    font-family: 'PT Sans', sans-serif;
+    background: black;
+}
+
+h1,h2,h3,h4{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: 'Playfair Display', serif;
+}
+
+p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 1140px;
+
+}
