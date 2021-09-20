@@ -1,0 +1,165 @@
+.global-season-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.first-season-title{
+    margin-top: 93px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.first-season-line{
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 1px;
+    width: 120px;
+    background: #ffffff;
+}
+
+.season-list{
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+}
+
+.season-item:not(:first-child){
+    margin-left: 50px;
+}
+
+.photo-container{
+    width: 260px;
+    height: 325px;
+    background: $watch-background;
+}
+
+.season-watch-photo{
+    margin-top: 55px;
+    margin-left: 23px;
+}
+
+.season-list-title{
+    margin-top: 25px;
+    font-size: 18px;
+    line-height: 24px;
+    color: #ffffff;
+}
+
+.season-list-text{
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 21px;
+    color: $price-color ;
+}
+
+.first-season-container{
+    height: 730px;
+    width: 1033px;
+}
+
+.second-season-container{
+    height: 730px;
+    width: 870px;
+    background: url(/images/first-season-photo.png);
+    text-align: center;
+}
+
+.third-season-container{
+    height: 600px;
+    width: 870px;
+    background: url(/images/second-season-photo.png);
+}
+
+.forth-season-container{
+    height: 600px;
+    width: 1033px;
+    text-align: center;
+}
+
+.second-season-title{
+    padding-top: 484px;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    text-transform: uppercase;
+    color:#ffffff;
+}
+
+.second-season-line{
+    margin-top: 30px;
+    width: 120px;
+    height: 1px;
+    background: #ffffff;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.first-season-button{
+    margin-top: 30px;
+    width: 138px;
+    height: 47px;
+    align-items: center;
+    justify-content: center;
+    background: none;
+    border: 1px solid #ffffff;
+}
+
+.fsb-text{
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color:#ffffff;
+}
+
+.third-season-title{
+    padding-top: 100px;
+    font-size: 36px;
+    line-height: 48px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.third-season-line{
+    margin-top: 40px;
+    width: 120px;
+    height: 1px;
+    background: #ffffff;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.season-text{
+    margin-top: 40px;
+    width: 471px;
+    height: 173px;
+    font-size: 14px;
+    line-height: 21px;
+    color: #ffffff;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.second-season-button{
+    margin-top: 60px;
+    width: 311px;
+    height: 47px;
+    align-items: center;
+    justify-content: center;
+    background: none;
+    border: 1px solid #ffffff;
+}
+
+.ssb-text{
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #ffffff;
+}

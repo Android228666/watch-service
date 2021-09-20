@@ -1,0 +1,36 @@
+.new-watch{
+    padding-top: 120px;
+    padding-bottom: 150px;
+}
+
+.new-watch-title{
+    text-align: center;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.new-watch-line{
+    margin-top: 40px;
+    width: 120px;
+    height: 1px;
+    background: #ffffff;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.new-watch-list{
+    margin-top: 80px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.new-watch-item:not(:nth-child(4n+1)){
+    margin-left: 23px;
+}
+
+.new-watch-item:not(:nth-child(n+5)){
+    margin-top: 40px;
+}
